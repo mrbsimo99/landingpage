@@ -12,8 +12,8 @@
   color: var(--bg-color);
   background-color: var(--primary-color);
   padding: 10px 20px;
-  text-decoration: none;
   border-radius: 0.5rem;
+  text-decoration: none;
 }
 
 body {
@@ -71,7 +71,6 @@ section {
 #home {
   display: flex;
   align-items: center;
-  height: 100vh;
 }
 
 .home-left {
@@ -103,9 +102,9 @@ section {
   gap: 1.5rem;
 }
 
-.about-left, .about-right{
-    width: 50%;
-
+.about-left,
+.about-right {
+  width: 50%;
 }
 
 .about-right {
@@ -115,21 +114,20 @@ section {
   align-items: baseline;
 }
 
-.about-right span{
-color: var(--primary-color);
-font-weight: 500;
+.about-right span {
+  color: var(--primary-color);
+  font-weight: 500;
 }
 
-.about-right h2{
-    font-size: var(--h2-font);
-
+.about-right h2 {
+  font-size: var(--h2-font);
 }
 
-.about-right p{
-    margin: 0.8rem 0 1.8rem;
+.about-right p {
+  margin: 0.8rem 0 1.8rem;
 }
 
-.about-left img{
-    width: 80%;
-    border-radius: 0.5rem;
+.about-left img {
+  width: 80%;
+  border-radius: 0.5rem;
 }
