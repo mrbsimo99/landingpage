@@ -209,3 +209,21 @@ nav {
 .services-bottom-card h3 {
   margin: 4px 0 10px;
 }
+
+/* -----------------------------CONTACT------------------------------ */
+#connect{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 10%;
+
+}
+
+.connect-intro{
+    color: var(--primary-color);
+}
+
+.connect-title{
+    font-size: var(--h2-font);
+}
+
